@@ -1,5 +1,5 @@
 # egglog-wasm
-- Prebuilt wasm from https://github.com/egraphs-good/egglog-demo/tree/934aeb2
+- Prebuilt wasm from [egraphs-good/egglog-demo@934aeb2](https://github.com/egraphs-good/egglog-demo/tree/934aeb2)
 ```ts
 import { run } from "https://gnlow.dev/egglog-wasm"
 
