@@ -1,14 +1,6 @@
 # egglog-wasm
-```
-function initSync(module?: any)
+```ts
+import { run } from "https://gnlow.dev/egglog-wasm"
 
-function run_program(input: string): Result
-
-function start(): void
-
-class Result
-  __wbg_ptr: number
-  static __wrap(ptr: number): Result
-  __destroy_into_raw(): number
-  free(): void
+console.log(run("(extract 1)")) // 1
 ```
